@@ -17,10 +17,10 @@ jobs:
         run: pip3 install robotframework
       
       - name: install Faker Library
-        run: pip3 install robotframework-faker
+        run: pip3 install --upgrade robotframework-faker
 
       - name: install Selenium Library
-        run: pip3 install robotframework-seleniumlibrary
+        run: pip3 install --upgrade robotframework-seleniumlibrary
         
       - name: run unit test
         run: robot .
