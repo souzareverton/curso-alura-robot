@@ -16,4 +16,4 @@ jobs:
         uses: tarathep/robotframework-github-action@v1.0
         with:
           tests_dir: '${{ github.workspace }}/testes/'
-          reports_dir: '${{ github.workspace }}/testes/reports'
+          reports_dir: '${{ github.workspace }}/testes'
