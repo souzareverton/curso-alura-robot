@@ -12,16 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.0
-
-      - name: install robot
-        run: pip3 install robotframework
-      
-      - name: install Faker Library
-        run: pip3 install --upgrade robotframework-faker
-
-      - name: install Selenium Library
-        run: pip3 install --upgrade robotframework-seleniumlibrary
         
       - name: run unit test
-        run: robot .
+        run: mvn test
       
