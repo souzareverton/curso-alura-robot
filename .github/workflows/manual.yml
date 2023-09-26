@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
    
 jobs:
-  robot_test:
+  robot-test:
     runs-on: ubuntu-latest
 
     steps:
